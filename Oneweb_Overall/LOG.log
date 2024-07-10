@@ -1,0 +1,31 @@
+Running job on host: ccc0344.campuscluster.illinois.edu
+Starting at: Sat May 25 15:58:51 CDT 2024
+Job ID: 11362805
+Job name: myjobname
+Node list: ccc0344
+Activated Conda Environment: my.anaconda           *  /home/njangid2/.conda/envs/my.anaconda
+/home/njangid2/.conda/envs/my.anaconda/bin/python
+Python 3.12.3
+RMS = 0.610
+Chassis Inferred BRDF Parameters
+------------------------------------
+Kd = 0.21
+Ks = 1.04
+n = 7.54
+Solar Array Inferred BRDF Parameters
+------------------------------------
+Kd = 0.00
+Ks = 0.00
+n = 3.01
+RMS = 0.596
+Chassis Inferred BRDF Parameters
+------------------------------------
+Kd = 0.35
+Ks = 1.56
+n = 12.48
+Solar Array Inferred BRDF Parameters
+------------------------------------
+Kd = 0.00
+Ks = 0.00
+n = 3.84
+Finished at: Sat May 25 16:19:37 CDT 2024
