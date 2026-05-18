@@ -74,25 +74,3 @@ The brightness modeling pipeline follows the methodology described in the paper:
 
 ---
 
-## Citation
-
-If you use this code or data in your work, please cite:
-
-```bibtex
-@article{Fankhauser2023,
-  author  = {Fankhauser, Forrest and Tyson, J. Anthony and Askari, Jacob},
-  title   = {Satellite Optical Brightness},
-  journal = {The Astronomical Journal},
-  volume  = {166},
-  pages   = {59},
-  year    = {2023},
-  doi     = {10.3847/1538-3881/ace047},
-  url     = {https://arxiv.org/abs/2305.11123}
-}
-```
-
----
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
