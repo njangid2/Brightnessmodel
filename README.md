@@ -47,7 +47,7 @@ Brightnessmodel/
 ### Dependencies
 
 | Package | Purpose |
-|---|---|---|
+|---|---|
 | `lumos-sat` | Satellite brightness modeling (BRDF, geometry, flux calculation) |
 | `pandas` | Data loading and manipulation |
 | `ipykernel` | Jupyter notebook kernel |
