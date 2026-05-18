@@ -22,15 +22,29 @@ A key finding of the underlying research is that Earthshine (indirect reflected 
 
 ---
 
+
+
 ## Repository Structure
 
 ```
 Brightnessmodel/
-├── OneWeb(MMT-9)/       # Analysis of a specific OneWeb satellite observed with the MMT telescope
-├── Oneweb_Overall/      # Broader OneWeb brightness modeling across multiple observations
-├── analysis/            # General analysis notebooks and utilities
-├── data/                # Database of brightness observations used to validate models
-├── requirements.txt     # Python dependencies
+├── OneWeb(MMT-9)/               # MMT telescope observations and modeling for 4 OneWeb satellites
+│   ├── sat/                     # Raw MMT-9 observation data for each satellite
+│   ├── sat_results/             # Satellite position data from sat-checker
+│   ├── 165/                     # Output plots for OneWeb-0165
+│   ├── 187/                     # Output plots for OneWeb-0187
+│   ├── 208/                     # Output plots for OneWeb-0208
+│   ├── 209/                     # Output plots for OneWeb-0209
+│   ├── OneWeb_0165.ipynb        # Brightness modeling notebook for OneWeb-0165
+│   ├── OneWeb_0187.ipynb        # Brightness modeling notebook for OneWeb-0187
+│   ├── OneWeb_0208.ipynb        # Brightness modeling notebook for OneWeb-0208
+│   └── OneWeb_0209.ipynb        # Brightness modeling notebook for OneWeb-0209
+├── Oneweb_Overall/              # Overall OneWeb brightness analysis
+│   ├── sat/                     # Raw observation data
+│   ├── sat_results/             # Satellite position data from sat-checker
+│   └── *.ipynb / *.png          # Analysis notebooks and output figures
+├── analysis/                    # General analysis notebooks and utilities
+├── requirements.txt             # Python dependencies
 ├── README.md
 └── TODO.md
 ```
